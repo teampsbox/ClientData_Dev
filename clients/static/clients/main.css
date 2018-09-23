@@ -1,0 +1,24 @@
+#clientList {
+	margin-top: 8em;
+}
+
+#profilePic {
+	height: 120px;
+	width: 140px;
+}
+
+#divider {
+	border-top: solid 1px grey;
+}
+
+
+#address {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#address:hover {
+	text-overflow: visible;
+	white-space: normal;
+}
